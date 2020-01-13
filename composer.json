@@ -1,5 +1,5 @@
 {
-    "name": "comsave/soap-client",
+    "name": "dennisbold/soap-client",
     "type": "library",
     "description": "A PHP client for the Salesforce SOAP API",
     "keywords": [ "salesforce", "crm", "soap", "force.com", "web services" ],
@@ -15,8 +15,8 @@
         }
     },
     "require": {
-        "php": ">=7.2",
-        "comsave/common": "^0.1.4",
+        "php": "^7.4",
+        "dennisbold/common": "^0.1.4",
         "psr/log": "^1.0"
     },
     "require-dev": {
@@ -37,6 +37,10 @@
         {
             "name": "Vaidas Bagdonas",
             "email": "vaidas.bagdonas@comsave.com"
+        },
+        {
+            "name": "Dennis Bold",
+            "email": "dennis@dennisbold.com"
         }
     ],
     "config": {
